@@ -58,8 +58,24 @@ a{
 
 /* About */
 
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
 h2{
     margin-top: 105px;
     background-color: rgb(228, 134, 72);
     background-size: 100px;
+}
+.baseball{
+    flex-wrap: wrap;
+}
+.videogames{
+    display: flex;
+    flex-wrap: wrap;
+}
+.golf{
+    display: flex;
+    flex-wrap: wrap;
 }
