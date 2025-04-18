@@ -23,21 +23,34 @@ div{
     margin: 5px;
     display: flex;
 }
+.headline{
+    margin-top: 110px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 40px;
+}
 body{
-    background-color: rgb(255, 255, 255);
-    margin: 10px;
+    background-color: rgb(240, 209, 173);
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 100px;
 }
 a{
     text-decoration: none;
     padding: 5px;
 }
 .main{
-    margin: 120px 5px 5px;
-    display: grid;
-    align-items: center;
-    justify-items: center;
+    display: flex;
+    justify-content: center;
 }
-
+.me{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    font-size: 20px;
+}
 #links{
     justify-content: space-between;
     flex-grow: 1;
@@ -74,7 +87,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
 }
-.golf{
+.coffee{
     display: flex;
     flex-wrap: wrap;
 }
@@ -96,16 +109,12 @@ h3{
 .portfoliogridcontainer{
     display: grid;
     grid-template-columns: auto auto;
-    margin-top: 100px;
+    margin-top: 120px;
 }
-
-
-
 
 /* Contact */
 
 .form{
-    margin: auto;
     margin-top: 150px;
 }
 .Message{
@@ -114,4 +123,18 @@ h3{
 .formbody{
     display: flex;
     justify-content: center;
+}
+
+/* Footer */
+
+footer{
+    background-color: rgb(117, 192, 206);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    box-shadow: 0 0 10px -2px black;
 }
