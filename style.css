@@ -22,6 +22,7 @@ h1{
 div{
     margin: 5px;
     display: flex;
+
 }
 .headline{
     margin-top: 110px;
@@ -30,7 +31,7 @@ div{
     font-size: 40px;
 }
 body{
-    background-color: rgb(240, 209, 173);
+    background-color: rgb(235, 224, 211);
     margin-bottom: 25px;
     margin-right: 25px;
     margin-left: 25px;
@@ -57,6 +58,10 @@ a{
     justify-content: right;
 }
 
+#links :hover{
+    background-color: aliceblue;
+}
+
 @media (max-width: 461px){
     nav{
         justify-content: center;
@@ -79,17 +84,21 @@ a{
 
 h2{
     margin-top: 105px;
+    font-size: 30px;
 }
 .baseball{
     flex-wrap: wrap;
+    font-family: 'Courier New', Courier, monospace;
 }
 .videogames{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(242, 245, 245);
 }
 .coffee{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(242, 245, 245);
 }
 .vgimg{
     justify-content: right;
@@ -102,6 +111,7 @@ h3{
 .headers{
     display: flex;
     flex-wrap: wrap;
+    background-color: rgb(242, 245, 245);
 }
 
 /* Portfolio */
@@ -110,6 +120,7 @@ h3{
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 120px;
+    background-color: aliceblue;
 }
 
 /* Contact */
